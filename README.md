@@ -1,6 +1,6 @@
 # Wendy Yepez trabajos de programacion web 
 
-## links del host
+## link del host
 [Host](http://wendyyepez.atwebpages.com/ )
 
 
