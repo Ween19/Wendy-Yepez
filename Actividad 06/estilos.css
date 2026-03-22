@@ -1,0 +1,68 @@
+    .menu{
+        position: sticky;
+        background-color: #BB85FF;
+        color: white;
+        padding: 10px;
+        top: 0;
+        z-index: 10; 
+    }
+
+    .h1{
+        text-align: center;
+    }
+
+    .menu a{
+        text-decoration: none;        
+        color: white;               
+    }
+
+    .menu a:visited {
+        color: white;               
+    }
+
+    .menu a:hover {
+        text-decoration: none;      
+    }
+
+    table {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    th,
+    td {
+        border: 1px solid rgb(160 160 160);
+        padding: 8px 10px;
+    }
+
+    th[scope="col"] {
+        background-color: #505050;
+        color: white;
+    }
+
+    th[scope="row"] {
+        background-color: #efaaea;
+    }
+    
+    th[colspan="5"] {
+        background-color: #efaaea;
+    }
+
+    td[rowspan="5"] {
+        background-color: #efaaea;
+    }
+
+    tfoot a {
+        text-decoration: none;
+        color: #8f23f5;
+    }
+
+    tfoot a:visited {
+        color: #8f23f5;
+    }
+
+    tfoot a:hover {
+        text-decoration: none;
+    }
