@@ -1,0 +1,55 @@
+    .menu{
+        position: relative;
+        padding: 10px;
+        top: 0;
+        z-index: 10; 
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .temas{
+        color: crimson;
+    }  
+
+    img {
+    border-bottom: 5px solid red;
+    } 
+
+    .autor{
+        font-weight: bold;
+    }
+
+    .llegada {
+        text-decoration: underline solid red;
+    }
+
+    .moviles{
+        text-decoration: underline solid red;
+    }
+
+    .rabbit{
+        text-decoration: underline solid red;
+    }
+
+    .frace{
+        color: rgb(134, 134, 134);
+    }
+
+    .r1{
+        font-weight: bold;
+        text-decoration: underline solid red;   
+    }
+
+    .usuario{
+        font-weight: bold;
+    }
+
+    .pin{
+        text-decoration: underline solid red;    
+    }
+
+    .vendio{
+        font-weight: bold;
+    }
