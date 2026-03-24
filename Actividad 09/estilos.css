@@ -1,0 +1,160 @@
+    .menu{
+        position: relative; 
+        top: 0;
+        z-index: 10; 
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f5f5f5;
+        margin: 20px;
+        padding: 0;
+    }
+
+    .tabla-periodica {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .tabla-periodica td {
+        border: 1px solid #aaa;
+        padding: 8px 4px;
+        text-align: center;
+        vertical-align: middle;
+        width: 70px;  
+        height: 60px;
+        position: relative;
+    }
+
+    .tabla-periodica td:empty {
+        background-color: #f0f0f0;
+        border: none;
+    }
+
+    .elemento {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .simbolo {
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .numero {
+        position: absolute;
+        top: 2px;
+        right: 4px;
+        font-size: 0.7rem;
+        font-weight: normal;
+    }
+
+    .nombre {
+        font-size: 0.7rem;
+        display: block;
+    }
+
+    .alcalino {
+        background-color: red;
+        color: white;
+    }
+    .alcalinoterreo {
+        background-color: #ffb366;
+        color: white;
+    }
+    .metal-transicion {
+        background-color: rgb(167, 167, 227);
+        color: black;
+    }
+    .metal {
+        background-color: rgb(194, 112, 232);
+        color: black;
+    }
+    .metaloide {
+        background-color: yellow;
+        color: black;
+    }
+    .no-metal {
+        background-color: #99ff99;
+        color: black;
+    }
+    .Otrosmetales {
+        background-color: #c0c0c0;
+        color: black;
+    }
+    .gas-noble {
+        background-color: pink;
+        color: black;
+    }
+    .fila-lantanidos td, .lantanido {
+        background-color: rgb(80, 80, 213);
+        color: white;
+    }
+    .fila-actinidos td, .actinido {
+        background-color: rgb(117, 196, 0);
+        color: black;
+    }
+
+
+    .leyenda {
+        max-width: 800px;
+        margin: 30px auto 0;
+        padding: 15px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .leyenda h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .leyenda ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .leyenda li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .leyenda span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #888;
+    }
+    .elemento-link {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        width: 100%;
+        height: 100%;
+    }
+
+    .elemento-link:hover {
+        filter: brightness(0.95);
+        box-shadow: 0 0 8px rgba(0,0,0,0.3);
+        transform: scale(1.00);
+    }
