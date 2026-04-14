@@ -1,0 +1,170 @@
+.dropdown {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn{
+    background-color: #e136cd;
+
+}
+body {
+    background: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+.barra-superior {
+    width: 100%;
+    background-color: #d69bf453;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    margin: 0%;
+}
+
+.menu img {
+    display: block;
+    width: 35px;
+    height: 38px;
+    margin-left: 20px;
+}
+
+.grid-container {
+   display: grid;
+    width: 95%;
+    max-width: 1400px;
+    margin: 20px auto;
+    grid-template-columns: 0.7fr 0.9fr 1.9fr 0.8fr;
+    grid-template-rows: 190px 120px 190px;
+    grid-template-areas:
+        "morado morado morado azul"
+        "rojo   verde  verde  azul"
+        "mclaro mclaro naranja azul";
+
+    gap: 15px;
+}
+
+.morado {
+    grid-area: morado;
+    background: #8e44ad;
+}
+
+.azul {
+    grid-area: azul;
+    background: #4a90c2;
+}
+
+.rojo {
+    grid-area: rojo;
+    background: #e74c3c;
+}
+
+.verde {
+    grid-area: verde;
+    background: #2ecc71;
+}
+
+.morado-claro {
+    grid-area: mclaro;
+    background: #a88bb5;
+}
+
+.naranja {
+    grid-area: naranja;
+    background: #f39c12;
+}
+
+.grid-container > div {
+    border-radius: 4px;
+}
+
+.verde-derecha {
+    grid-area: verdeD;
+    background: #2ecc71;
+}
+
+.grid-container-2 {
+    display: grid;
+    width: 95%;
+    max-width: 1400px;
+    margin: 20px auto;
+    grid-template-columns: 1fr 0.4fr 2.2fr 0.3fr;
+    grid-template-rows: 180px 80px 100px 130px;
+    grid-template-areas:
+        "rojo   morado  morado  verdeD"
+        "rojo   verde   azul    verdeD"
+        "rojo   verde   mclaro  verdeD"
+        "rojo   naranja naranja verdeD";
+
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.grid-container-3 {
+    display: grid;
+    width: 95%;
+    max-width: 1400px;
+    margin: 20px auto;
+
+    grid-template-columns: 0.9fr 2.2fr 1.3fr 1fr 0.4fr;
+    grid-template-rows: 80px 100px 160px 200px;
+
+    grid-template-areas:
+        "morado morado  morado  morado  naranjaR"
+        "naranjaL verde   verde   verde   naranjaR"
+        "naranjaL azul1   azul2   azul2   naranjaR"
+        "naranjaL abajo   abajo   abajo   naranjaR";
+
+    gap: 15px;
+}
+
+.azul1 { 
+    grid-area: azul1; 
+    background: #5dade2; 
+}
+
+.azul2 { 
+    grid-area: azul2; 
+    background: #5dade2; 
+}
+
+.naranja-izq { 
+    grid-area: naranjaL; 
+    background: #f39c12; 
+}
+
+.naranja-der { 
+    grid-area: naranjaR; 
+    background: #f39c12; 
+}
+
+.abajo {
+    grid-area: abajo;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.mini {
+    background: #a88bb5;
+}
+
+.abajo .rojo {
+    background: #e74c3c;
+}
+
+.abajo .rojo:nth-of-type(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.abajo .rojo:nth-of-type(8) {
+    grid-column: 3;
+    grid-row: 2;
+}
