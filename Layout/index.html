@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+<header>    
+    <div class="bg-custom-top py-2">  
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col">
+                    <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="../index.html">
+                        <span class="material-symbols-outlined">home</span>
+                    </a>
+                    <span class="logo-texto">LOGO</span>
+                </div>
+                <div class="col text-end">
+                    <form class="d-flex justify-content-end" role="search">
+                        <input class="form-control me-2 w-auto" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="bg-custom-bottom py-2">  
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="contenedor-principal">
+    <section class="contenido-izquierdo">
+    <div class="sidebar-card">
+        <h5 class="card-title"><strong>Otras noticias</strong></h5>
+        <ul class="noticias-lista">
+            <li>
+                <strong>Otra noticia 1</strong>
+                <span class="fecha">05/03/2024</span>
+            </li>
+            <li>
+                <strong>Otra noticia 2</strong>
+                <span class="fecha">05/03/2024</span>
+            </li>
+            <li>
+                <strong>Otra noticia 3</strong>
+                <span class="fecha">05/03/2024</span>
+            </li>
+            <li>
+                <strong>Otra noticia 4</strong>
+                <span class="fecha">05/03/2024</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="publicidad-block">
+        <h2 class="publicidad-titulo">Publicidad</h2>
+        <p class="publicidad-texto">
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+            Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+            cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó 
+            una galería de textos y los mezcló de tal manera que logró hacer un libro de textos 
+            especimen.
+        </p>
+        <p class="publicidad-link">
+            <strong>Seguir leyendo</strong>
+        </p>
+    </div>
+    </section>
+
+    <section class="contenido-central">
+        <div class="bloque-con-imagen">
+            <img src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/plugins/67-rT9rTQMRmGpqyLAUh3O6fKwK1UQIhT" class="imagen-izquierda">
+            <div class="texto-derecha">
+                <h1 class="publicidad-titulo">El pasaje estándar Lorem Ipsum, usado desde el 1500.</h1>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                    Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+                    cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó 
+                    una galería de textos y los mezcló de tal manera que logró hacer un libro de textos 
+                    específicos. No sólo sobrevivió 500 años, sino que también ingresó como texto de relleno 
+                    en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+                <p class="publicidad-link"><strong>Seguir leyendo</strong></p>
+            </div>
+        </div>
+
+
+        <div class="bloque-con-imagen">
+            <img src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/plugins/67-rT9rTQMRmGpqyLAUh3O6fKwK1UQIhT" class="imagen-izquierda">
+            <div class="texto-derecha">
+                <h2 class="publicidad-titulo">Sección 1.10.33 de "de Finibus Bonorum et Malorum"</h2>
+                <p>
+                     Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                    Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+                    cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó 
+                    una galería de textos y los mezcló de tal manera que logró hacer un libro de textos 
+                    específicos. No sólo sobrevivió 500 años, sino que también ingresó como texto de relleno 
+                    en documentos electrónicos, quedando esencialmente igual al original.
+                </p>
+                <p class="publicidad-link"><strong>Seguir leyendo</strong></p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contenido-derecho">
+        <div class="bloque-derecho">
+            <h3>Columna Derecha</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+                cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
+            <p class="seguir-leyendo"><strong>Seguir leyendo</strong></p>
+            <h3>Columna Derecha</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                 Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+                 cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
+            <p class="seguir-leyendo"><strong>Seguir leyendo</strong></p>
+        </div>
+    </section>
+
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-contenido">
+            <div class="footer-izquierda">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Acerca de</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="footer-derecha">
+                © By AFFL 2026 / CUCEA
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
