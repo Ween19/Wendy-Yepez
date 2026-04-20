@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    min-height: 100vh; 
+    background: linear-gradient(135deg, #2984eb8a, #f5ebff98);
+    padding-bottom: 20px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;              
+    z-index: 1000;
+    padding: 10px;
+    background: linear-gradient(135deg, #2984eb8a, #f5ebff98);
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 15px;
+    background: linear-gradient(135deg,#9758df85,#2984eb8a);
+    border-radius: 10px;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #004ca38a; 
+    box-shadow: 0 0 0 0.25rem rgba(255, 79, 216, 0.4);
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel {
+    width: 90%;
+    margin: 30px auto;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 25px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1.2s ease-out forwards, brillo 2s infinite alternate;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes brillo {
+    from {
+        text-shadow: 0 0 5px #c77dff, 0 0 10px #9758df85;
+    }
+    to {
+        text-shadow: 0 0 15px #9d4edd, 0 0 25px #9758df85;
+    }
+}
+
+.beneficio{
+    padding: 70px 0;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta{
+    background: linear-gradient(135deg, #2984eb8a, #bca4d298);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgb(0, 0, 0, 8);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.list-group-item {
+    background: linear-gradient(135deg, #2984eb8a, #bca4d298);
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background: linear-gradient(135deg, #e958c9, #bca4d298);
+    box-shadow: 0 0 0 0.25rem rgba(255, 79, 216, 0.4);
+    color: white;
+}
+
+.list-group-item.active {
+    background: linear-gradient(135deg, #e958c9, #bca4d298);
+    border: none;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    background: linear-gradient(135deg, #2984eb8a, #bca4d298);
+    color: rgb(3, 3, 3);
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-izquierda,
+.footer-centro,
+.footer-derecha {
+    min-width: 200px;
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ff4fd8;
+    text-decoration: underline;
+}
+
+.footer-derecha {
+    text-align: right;
+}
